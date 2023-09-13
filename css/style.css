@@ -299,34 +299,14 @@
 
 }
 
-.home-imgHover {
-    position: absolute;
-    top: 0;
-    right: 30px;
-    height: 100%;
-    width: 500px;
 
-    transition: 3s;
-}
 
 .home-imgHover:hover {
     background: white;
-    opacity: .8;
+    
 }
 
-.home-imgHover::after {
 
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 120%;
-    height: 100%;
-    background: #ededed;
-    animation: showRight 1s ease forwards;
-    animation-delay: 2.7s;
-    z-index: 2;
-}
 
 .logo::before {
 
