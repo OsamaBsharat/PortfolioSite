@@ -6,7 +6,7 @@
 
 }
 
-body {}
+
 
 .header {
 
@@ -64,7 +64,7 @@ body {}
 .home-content {
 
     max-width: 600px;
-    
+
 
 }
 
@@ -74,8 +74,9 @@ body {}
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
-    
+
 }
+
 .home-content h1::before {
 
     content: '';
@@ -93,8 +94,9 @@ body {}
     position: relative;
     font-size: 32px;
     font-weight: 700;
-    color: #D1884F;
+    color: #008AAA;
 }
+
 .home-content h3::before {
 
     content: '';
@@ -108,12 +110,29 @@ body {}
     animation-delay: 1.3s;
 }
 
+#job-position {
+    color: aqua;
+}
+
+#more {
+    display: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#dots {
+    color: blue;
+    text-decoration: underline;
+}
+
 .home-content p {
     position: relative;
     font-size: 16px;
+    width: 75%;
     margin: 20px 0 40px;
 
 }
+
 .home-content p::before {
 
     content: '';
@@ -127,6 +146,7 @@ body {}
     animation-delay: 1.6s;
 }
 
+
 .home-content .btn-box {
     position: relative;
     display: flex;
@@ -137,6 +157,7 @@ body {}
 
 
 }
+
 .home-content .btn-box::before {
 
     content: '';
@@ -220,6 +241,7 @@ body {}
     display: flex;
     justify-content: space-between;
 }
+
 .home-sci::before {
 
     content: '';
@@ -233,6 +255,7 @@ body {}
     animation-delay: 2.5s;
     z-index: 2;
 }
+
 .home-sci a {
     position: relative;
     display: inline-flex;
@@ -290,6 +313,7 @@ body {}
     background: white;
     opacity: .8;
 }
+
 .home-imgHover::after {
 
     content: '';
@@ -323,65 +347,3 @@ body {}
     }
 
 }
-
-/*.body-text {
-
-    display: flex;
-    align-items: center;
-   
-    justify-content: center;
-    margin-top: 250px;
-
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: white;
-}
-
-.nav-links {
-
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-
-
-}
-
-.nav-links li {
-
-    list-style: none;
-
-}
-
-.heading {
-    color: aliceblue;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
-
-
-    
-}
-
-.nav-links a {
-    color: grey;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: 3px;
-    font: size 14px;
-    padding: 14px 16px;
-
-}
-
-.nav-links li a.active {
-    color: lightsalmon;
-}
-
-
-.nav-links li img.active {
-    color: lightsalmon;
-}*/
