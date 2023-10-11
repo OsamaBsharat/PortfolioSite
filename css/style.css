@@ -20,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color: white;
 }
 
 .logo {
@@ -178,7 +179,7 @@
 }
 
 .btn-box a:nth-child(2) {
-
+    align-items: center;
     background: transparent;
     color: #008AAA;
 
@@ -284,7 +285,7 @@
 
 .home-imgHover:hover {
     background: white;
-    
+
 }
 
 
@@ -301,7 +302,61 @@
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
 }
+.about-me{
+    width:100%;
+    height: 100vh;
 
+}
+.about-me-header {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+   
+    justify-content:space-between;
+   
+}
+
+
+
+.right-side {
+    display: flex;
+    background: #f06344;
+    justify-content: center;
+}
+
+.download-cv{
+    display: flex;
+    justify-content: center;
+}
+.user-img{
+
+    display: flex;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    
+}
+.container{    
+
+    
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 25%;
+}
+.right-side-login{
+   justify-content: center;
+    width: 50vh;
+    height: 50vh;
+   
+}
+.left-side-login{
+    width: 50vh;
+    height: 50vh;
+    background-color: #008AAA;
+}
 @keyframes showRight {
     100% {
         width: 0;

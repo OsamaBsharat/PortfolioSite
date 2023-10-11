@@ -12,3 +12,12 @@ function seeMoreFunction() {
         dots.textContent = "Show Less";
     }
 }
+function convertBirthDayToAge(){
+    let myAgeSpan=document.getElementById("my-age");
+    var today = new Date();
+    const birthDayDate=new Date("1999-05-14");
+   const age =today.getFullYear()-birthDayDate.getFullYear();
+    myAgeSpan.textContent=age+" Years";
+
+}
+convertBirthDayToAge();
